@@ -1,8 +1,21 @@
-# CPU Scheduler Simulator
+# CPU Scheduler Simulator ⏱️
 
-## Overview
+This project is a **CPU scheduler simulator** that implements five classic scheduling algorithms. It provides a **command-line interface** for comparing the performance of different scheduling strategies using user-defined process sets. Users can easily simulate scheduling algorithms like **First-Come, First-Served (FCFS)**, **Shortest Job First (SJF)**, **Shortest Remaining Time (SRT)**, **Round Robin (RR)**, and **Priority Scheduling**. This simulator calculates and displays detailed performance metrics, such as **waiting times** and **turnaround times**, to help users understand and analyze the efficiency of each algorithm.
 
-This project is a CPU scheduler simulator that implements five classic scheduling algorithms. It offers a command-line interface for comparing the performance of different scheduling strategies with user-defined process sets.
+![C](https://img.shields.io/badge/C-Language-blue) ![GCC](https://img.shields.io/badge/GCC-Compiler-orange) ![Make](https://img.shields.io/badge/Make-Utility-red)
+
+---
+
+<p align="center">
+  <img width="447" alt="Screenshot 2025-03-07 at 7 51 09 PM" src="https://github.com/user-attachments/assets/523890ec-ef47-4a22-a587-48c0fbac7e5a" />
+</p>
+
+---
+
+## Technologies Used
+- **C**: The programming language used to implement the project
+- **GCC**: Compiler for building the project
+- **Make**: Utility for automating the build process
 
 ## Features
 
@@ -15,8 +28,8 @@ The simulator implements the following scheduling algorithms:
 - **Priority Scheduling**: Non-preemptive algorithm that schedules based on priority values
 
 For each scheduling algorithm, the simulator calculates and displays:
-- Individual waiting time for each process
-- Individual turnaround time for each process
+- Individual **waiting time** for each process
+- Individual **turnaround time** for each process
 - Average waiting time across all processes
 - Average turnaround time across all processes
 
@@ -24,15 +37,15 @@ For each scheduling algorithm, the simulator calculates and displays:
 
 ### Prerequisites
 
-- C compiler (GCC recommended)
-- Make utility
+- **C compiler** (GCC recommended)
+- **Make utility**
 
 ### Installation
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/cpu-scheduler-simulator.git
-   cd cpu-scheduler-simulator
+   git clone https://github.com/mariarodr1136/CPU_SchedulerSimulator.git
+   cd CPU_SchedulerSimulator
    ```
 
 2. Compile the project:
@@ -155,13 +168,29 @@ When a scheduling algorithm is selected:
 
 The interactive menu allows users to compare the efficiency of different algorithms using the same process set.
 
-## Contributing
+## Contributing 
+Feel free to submit issues or pull requests for improvements or bug fixes. You can also open issues to discuss potential changes or enhancements. All contributions are welcome to enhance the app’s features or functionality!
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+To contribute, please follow these steps:
 
-## License
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feat/your-feature-name
+- Alternatively, for bug fixes:
+   ```bash
+   git checkout -b fix/your-bug-fix-name
+3. Make your changes and run all tests before committing the changes and make sure all tests are passed.
+4. After all tests are passed, commit your changes with descriptive messages:
+   ```bash
+   git commit -m 'add your commit message'
+5. Push your changes to your forked repository:
+   ```bash
+   git push origin feat/your-feature-name.
+6. Submit a pull request to the main repository, explaining your changes and providing any necessary details.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Contact 🌐
+If you have any questions or feedback, feel free to reach out at [mrodr.contact@gmail.com](mailto:mrodr.contact@gmail.com).
 
 ## Acknowledgments
 
